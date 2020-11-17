@@ -32,7 +32,7 @@ jobs:
       matrix:
         os: [macOS-10.14, windows-2016, ubuntu-18.04]
     steps:
-      - uses: chrislennon/action-aws-cli@v1.1
+      - uses: ReyahSolutions/action-aws-cli@v1.2
       # All commands after this point have access to the AWS CLI
       - run: aws s3 ls
         env:
