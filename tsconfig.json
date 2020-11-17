@@ -9,7 +9,7 @@
     "declaration": true,
     "pretty": true,
     "sourceMap": true,
-    "outDir": "lib",
+    "outDir": "./build",
     "baseUrl": ".",
     "incremental": true,
     "lib": [
